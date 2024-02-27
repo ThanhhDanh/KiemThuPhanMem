@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="noel.css">
+    <link rel="icon" href="/images/noel1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Merry Christmas</title>
+</head>
+<body>  
+    
+    <div class="containers">
+        <div class="santa-reindeer">
+            <div class="reindeer">
+                <img src="https://www.animatedimages.org/data/media/359/animated-santa-claus-image-0420.gif" alt="">
+            </div>
+        </div>
+        <div class="santa-skiing">
+            <img src="https://i.pinimg.com/originals/08/a6/a4/08a6a4fb28fb5048fe606937f376017f.gif" alt="">
+        </div>
+        <div class="santa-container">
+                    <div class="santa1">
+                        <div class="santa-img">
+                            <img src="/images/santa.png" alt="">
+                        </div>
+                        <div class="santa__hand-img">
+                            <img src="/images/santa-hand.png" alt="">
+                        </div>
+                    </div>
+        </div>
+        <div class="moon">
+            <img src="/images/moon.png" alt="">
+        </div>
+        <div class="tree-christmas">
+            <img src="/images/christmas-tree.png" alt="">
+        </div>
+        <div class="box-gift">
+            <div class="gift-bottom"></div>
+            <div class="gift-top"></div>
+            <div class="box-fastener">
+                <div class="fastener1"></div>
+                <div class="fastener2"></div>
+            </div>
+            <div class="content"></div>
+        </div>
+        <div class="box-content ">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="content1">
+                <div class="content-heart">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="content-text">
+                    <div class="text1">
+                        <p id="text1">G?i em!</p>
+                    </div>
+                    <div class="text2">
+                        <h2 id="text2">
+                            Anh bi?t r?ng cô gái c?a anh ch?u nhi?u áp l?c trong công vi?c và h?c t?p
+                        </h2>
+                        <h2 id="text3">
+                            Mà h dã có anh bên em r?i m?c dù anh không hi?u em h?t nhung anh c?m nh?n du?c t? em, nên có anh dây r?i anh s? l?ng nghe và che ch? em  nh?ng lúc em c?n nh?t. Thuong em nh?t cô gái c?a anh!!!. Merry Christmas
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image-decorate">
+                <div class="pineTree">
+                    <img src="/images/pineTree.png" alt="">
+                </div>
+                <div class="decorate">
+                    <img src="/images/decorate.png" alt="">
+                </div>
+                <div class="bell">
+                    <img src="/images/bell.png" alt="">
+                    <img src="/images/bell.png" alt="">
+                </div>
+                <div class="bell1">
+                    <img src="/images/bell1.png" alt="">
+                    <img src="/images/bell1.png" alt="">
+                    <img src="/images/bell1.png" alt="">
+                    <img src="/images/bell1.png" alt="">
+                </div>
+                <div class="snowman">
+                    <img src="/images/snowman.png" alt="">
+                </div>
+            </div>
+            <div class="image-santa-content">
+                <img src="/images/santa1.png" alt="">
+            </div>
+        </div>
+        <div class="shadow-boxGift"></div>
+        <div class="night">
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+        </div>
+        <div class="fall_snow"></div>
+        <div class="container">
+
+            <div class="night">
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+            </div>
+
+            <div class="bottom_snow"></div>
+    
+            <div class="tree"></div>
+    
+            <div class="tree_bot"></div>
+    
+            <div class="ball red"></div>
+    
+            <div class="ball green"></div>
+    
+            <div class="ball blue"></div>
+    
+            <div class="ball red rsmall"></div>
+    
+            <div class="ball green gsmall"></div>
+    
+            <div class="ball blue bsmall"></div>
+    
+            <!-- <div class="content">
+                <div>Bé iu
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div></div>
+            </div>
+     -->
+            <div class="fall_snow"></div>
+    
+        </div>
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>
