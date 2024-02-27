@@ -140,7 +140,7 @@
     
             <!-- <div class="content">
                 <div>Bé iu
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-heart"></i> //Icon
                 </div>
                 <div></div>
             </div>
