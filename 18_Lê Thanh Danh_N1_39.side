@@ -1,0 +1,437 @@
+{
+  "id": "924d6d6a-2fbe-43a5-bae6-fed91ea3cc79",
+  "version": "2.0",
+  "name": "18_Lê Thanh Danh_N1",
+  "url": "https://thanhnien.vn",
+  "tests": [{
+    "id": "3ad09498-563f-406c-bdcf-02a7cd305ab7",
+    "name": "TC1(record)",
+    "commands": [{
+      "id": "60df7685-b2dc-4918-b5c7-e81c60aa5749",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36c3738f-1015-4dd8-92f8-ca8df801233d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3c7f9e-d6c9-4955-b250-610997887c1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-search",
+      "targets": [
+        ["css=.btn-search", "css:finder"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f6a076-0cc9-4ea0-b7f0-436a6060ab1a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.btn-search",
+      "targets": [
+        ["css=.btn-search", "css:finder"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bóng đá"
+    }, {
+      "id": "c0b0c080-003b-4905-b65e-a8e4eeadd2d1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.btn-search",
+      "targets": [
+        ["css=.btn-search", "css:finder"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6da6826b-290f-458e-b94f-62891379f3a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Du lịch",
+      "targets": [
+        ["linkText=Du lịch", "linkText"],
+        ["css=li:nth-child(9) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Du lịch')]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/du-lich.htm')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Du lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37537cfe-c9c4-4b43-9b63-4d675b8629a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Du lịch",
+      "targets": [
+        ["linkText=Du lịch", "linkText"],
+        ["css=li:nth-child(9) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Du lịch')]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/du-lich.htm')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Du lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b2890f-a351-44cd-8bdf-82ec2ec8c007",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Kinh tế",
+      "targets": [
+        ["linkText=Kinh tế", "linkText"],
+        ["css=li:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Kinh tế')]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kinh-te.htm')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kinh tế')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8a17613-79c2-4b77-a1a8-039621e7e4bd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Kinh tế",
+      "targets": [
+        ["linkText=Kinh tế", "linkText"],
+        ["css=li:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Kinh tế')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kinh-te.htm')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "546c8304-13b5-433f-a7e4-88a84f69966a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thời sự",
+      "targets": [
+        ["linkText=Thời sự", "linkText"],
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thời sự')]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/thoi-su.htm')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thời sự')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10f9cb9e-3570-4615-b34c-ca2a042d8a19",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,137.60000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0cac73e-0e66-4d75-a2f0-eb07ae217721",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan",
+      "targets": [
+        ["linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan", "linkText"],
+        ["css=.item-first .box-category-link-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nhieu-tranh-cai-cho-toa-phan-quyet-trong-vu-an-truong-my-lan-185240409092249203.htm')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d1b36ce-8c61-4afc-ad04-053c66e2c29d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,560)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "194dd3c4-063e-4cda-979d-ae7f605cef84",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan",
+      "targets": [
+        ["linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan", "linkText"],
+        ["css=.item-first .box-category-link-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nhieu-tranh-cai-cho-toa-phan-quyet-trong-vu-an-truong-my-lan-185240409092249203.htm')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8378a7e5-ce89-461d-8171-356abde0bc8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan",
+      "targets": [
+        ["linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan", "linkText"],
+        ["css=.item-first .box-category-link-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nhieu-tranh-cai-cho-toa-phan-quyet-trong-vu-an-truong-my-lan-185240409092249203.htm')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc9ec9b-88ec-4ed8-85fe-e1a07e6f4dc7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan",
+      "targets": [
+        ["linkText=Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan", "linkText"],
+        ["css=.item-first .box-category-link-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nhieu-tranh-cai-cho-toa-phan-quyet-trong-vu-an-truong-my-lan-185240409092249203.htm')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nhiều tranh cãi chờ tòa phán quyết trong vụ án Trương Mỹ Lan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c7590b-c89f-42f8-987d-6f291a31383f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17f5915b-cd69-4780-860c-7deb32d78920",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Video",
+      "targets": [
+        ["linkText=Video", "linkText"],
+        ["css=li:nth-child(15) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Video')]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[15]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/video.htm')]", "xpath:href"],
+        ["xpath=//li[15]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Video')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2006d5-0b93-444c-97d1-67cc77b4b77d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Video",
+      "targets": [
+        ["linkText=Video", "linkText"],
+        ["css=li:nth-child(15) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Video')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[15]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/video.htm')])[2]", "xpath:href"],
+        ["xpath=//li[15]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d272c16-fc8e-4dc0-86da-852001753f33",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Video",
+      "targets": [
+        ["linkText=Video", "linkText"],
+        ["css=li:nth-child(15) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Video')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[15]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/video.htm')])[2]", "xpath:href"],
+        ["xpath=//li[15]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c320de-6ef2-4be8-a265-06cc66ebc188",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,21.600000381469727)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a6e70e-cca5-4a0a-ae9a-3103733703ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xem nhanh 12h: Tước danh hiệu CAND nữ cán bộ dính líu ma túy | 42 giờ tìm kiếm 2 bé gái ‘mất tích’ ở phố đi bộ",
+      "targets": [
+        ["linkText=Xem nhanh 12h: Tước danh hiệu CAND nữ cán bộ dính líu ma túy | 42 giờ tìm kiếm 2 bé gái ‘mất tích’ ở phố đi bộ", "linkText"],
+        ["css=.box-category-content:nth-child(1) .box-category-link-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Xem nhanh 12h: Tước danh hiệu CAND nữ cán bộ dính líu ma túy | 42 giờ tìm kiếm 2 bé gái ‘mất tích’ ở phố đi bộ')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/xem-nhanh-12h-tuoc-danh-hieu-cand-nu-can-bo-dinh-liu-ma-tuy-42-gio-tim-kiem-2-be-gai-mat-tich-o-pho-di-bo-185240409115742549.htm')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xem nhanh 12h: Tước danh hiệu CAND nữ cán bộ dính líu ma túy | 42 giờ tìm kiếm 2 bé gái ‘mất tích’ ở phố đi bộ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba50c263-6ab2-40a9-b745-e9f51dec8c83",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) .title-cate",
+      "targets": [
+        ["css=li:nth-child(5) .title-cate", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đời sống')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[6]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "445fec94-9e21-4ada-8000-395f2cf368a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.600000023841858)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e0ee525-f15a-43f0-be4f-6cbd115dbfde",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(5) .title-cate",
+      "targets": [
+        ["css=li:nth-child(5) .title-cate", "css:finder"],
+        ["xpath=(//a[contains(text(),'Đời sống')])[2]", "xpath:link"],
+        ["xpath=//div[@id='admWrapsite']/div[2]/div/div[2]/div[2]/div/div/div/ul/li[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[6]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2844fb0-6743-43fd-9b14-76e50c38db8e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b812e5e2-83d1-43df-bf8b-5e16be38db67",
+    "name": "TC2",
+    "commands": [{
+      "id": "f0a7269c-4cf6-4831-9fdb-d84000b2d2b7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nettruyenhh.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b915625-ffdc-4970-94b6-9d2587d8ca35",
+      "comment": "",
+      "command": "type",
+      "target": "css=.navbar-form .searchinput",
+      "targets": [
+        ["css=.navbar-form .searchinput", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bố tôi là đặc vụ"
+    }, {
+      "id": "0f431bce-a554-4561-9a82-3582197ac661",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.navbar-form .searchinput",
+      "targets": [
+        ["css=.navbar-form .searchinput", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f472d60e-2b9e-445b-a5ee-e7a105cc7091",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-form .searchbutton",
+      "targets": [
+        ["css=.navbar-form .searchbutton", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09503157-ad71-495b-adbc-926896e44c16",
+    "name": "TC3",
+    "commands": [{
+      "id": "280ba256-d39a-4da6-b012-28c904055980",
+      "comment": "",
+      "command": "open",
+      "target": "https://cellphones.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83c299f0-643f-4c97-838d-e5b4742d0bb0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.about-5",
+      "targets": [
+        ["css=.about-5", "css:finder"],
+        ["xpath=//header[@id='cpsHeader']/div[2]/nav/div[4]/div", "xpath:idRelative"],
+        ["xpath=//nav/div[4]/div", "xpath:position"]
+      ],
+      "value": "Đăng nhập"
+    }, {
+      "id": "15a12c6b-e41a-4dad-b9fb-23d23137cdd2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=EMAIL", "name"],
+        ["css=.subscriber-popup-body > #subscriber-form #inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriber-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "215104234danh@ou.edu.vn"
+    }, {
+      "id": "87241778-f755-4134-9a60-610476d00260",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputPhone",
+      "targets": [
+        ["id=inputPhone", "id"],
+        ["name=SMS", "name"],
+        ["css=.subscriber-popup-body > #subscriber-form #inputPhone", "css:finder"],
+        ["xpath=//input[@id='inputPhone']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriber-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "09054345322"
+    }, {
+      "id": "590b2ea9-8280-400c-ad4e-c4a3e4568cd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subscriber-popup-body > #subscriber-form .button-default",
+      "targets": [
+        ["css=.subscriber-popup-body > #subscriber-form .button-default", "css:finder"],
+        ["xpath=//div[@id='subscriber-form']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐĂNG KÝ NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1eef4dd2-27b6-4910-b88a-acd6a16908da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ad09498-563f-406c-bdcf-02a7cd305ab7"]
+  }],
+  "urls": ["https://thanhnien.vn/"],
+  "plugins": []
+}
